@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Core" Version="3.3.100.5" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.3.100.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DroneLib\DroneLib.csproj" />
+  </ItemGroup>
+
+</Project>

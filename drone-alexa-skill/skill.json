@@ -1,0 +1,40 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "drone skill",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TakeoffIntent",
+                    "slots": [],
+                    "samples": [
+                        "takeoff",
+                        "fly",
+                        "start", 
+                        "go"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

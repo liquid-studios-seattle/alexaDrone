@@ -1,0 +1,23 @@
+{
+  "name": "drone-lambda",
+  "version": "1.0.0",
+  "description": "drone lambda function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liquid-studios-seattle/alexaDrone.git"
+  },
+  "keywords": [
+    "drone",
+    "lambda"
+  ],
+  "author": "Shield",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.312.0",
+    "alexa-sdk": "^1.0.25"
+  }
+}

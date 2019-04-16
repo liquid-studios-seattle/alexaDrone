@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroneApp", "DroneApp\DroneApp.csproj", "{CD865C51-273B-436E-B9D7-2CF4B4996723}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroneLib", "DroneLib\DroneLib.csproj", "{46A84D62-B613-43E7-A660-0E944F3BCF92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8C94DA6-9C5E-4548-B2BA-4E452F2F5B62}"
+	ProjectSection(SolutionItems) = preProject
+		dataflow.png = dataflow.png
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD865C51-273B-436E-B9D7-2CF4B4996723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD865C51-273B-436E-B9D7-2CF4B4996723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD865C51-273B-436E-B9D7-2CF4B4996723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD865C51-273B-436E-B9D7-2CF4B4996723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A84D62-B613-43E7-A660-0E944F3BCF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A84D62-B613-43E7-A660-0E944F3BCF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A84D62-B613-43E7-A660-0E944F3BCF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A84D62-B613-43E7-A660-0E944F3BCF92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ED32F7A-AD35-46AB-AFBF-13BD17B3FA4C}
+	EndGlobalSection
+EndGlobal
