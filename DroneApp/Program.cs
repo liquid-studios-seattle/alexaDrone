@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
 using Amazon;
 using Amazon.SQS;
@@ -11,11 +12,11 @@ namespace DroneApp
     {
         static void Main(string[] args)
         {
-            TestDroneCommandFromSqsAsync("DroneCommandQueue4.fifo");
-            Console.Read();
-            DroneLand();
+            //TestDroneCommandFromSqsAsync("DroneCommandQueue4.fifo");
+            //Console.Read();
+            //DroneLand();
 
-            //DroneTakeOffAndLand();
+            DroneTakeOffAndLand();
         }
 
         static void DroneLand()
@@ -34,6 +35,9 @@ namespace DroneApp
             {
                 api.Init();
                 api.TakeOff();
+
+                Thread.Sleep(5000);
+
                 api.Land();
             }
         }
